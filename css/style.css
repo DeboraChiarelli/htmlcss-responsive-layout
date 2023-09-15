@@ -181,4 +181,20 @@ figure > img {
     }
 }
 
+@media (max-width:580px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+
+
 
