@@ -137,14 +137,50 @@ figure > img {
     display: none;
 }
 
-.hero .col {
+.row > [class^='col'] {
     padding: 20px;
 }
 
-.debug .card {
-    border: 1px purple solid;
-    padding: 20px;
+/*.hero [class^='col'] {
+    margin-top: 20px;
+    background-color: var(--light-blue);
+}*/
+
+.card {
+    background-color: var(--light-blue);
 }
+
+.hero {
+	padding: 20px 0;
+} 
+
+figure > img {
+	display: block;
+	width: 100%;
+}
+    
+.phone-img {
+    width: 200px;
+}
+
+.button-app {
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 0 18px;
+}
+
+.card-title {
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
 
 
 
