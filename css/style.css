@@ -20,12 +20,16 @@ img {
     width: 100%;
 }
 
-
 a {
     text-decoration: none;
     color: currentColor;
     display: inline-block;
 }
+
+figure > img {
+    display: block;
+}
+
 /* palette colori */
 
 :root {
@@ -80,10 +84,10 @@ a {
 .justify-between {
     justify-content: space-between;
 }
+
 .align-items-center {
     align-items: center;
 }
-
 
 /* component classes */
 
@@ -99,6 +103,8 @@ a {
 /* header */
 .page-header {
     background-color: var(--blue);
+    color: #FFFFFF;
+    padding: 40px;
 }
 
 .navbar-list {
@@ -120,10 +126,59 @@ a {
     border: 1px solid var(--purple);
     padding: 10px;
 }
+
 .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
 }
 
+.hamburger {
+    color: #FFFFFF;
+    display: none;
+}
+
+.hero .col {
+    padding: 20px;
+}
+
+.debug .card {
+    border: 1px purple solid;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width:770px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
 
 
