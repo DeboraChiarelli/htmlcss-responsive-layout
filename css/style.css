@@ -26,10 +26,6 @@ a {
     display: inline-block;
 }
 
-figure > img {
-    display: block;
-}
-
 /* palette colori */
 
 :root {
@@ -132,53 +128,62 @@ figure > img {
     padding: 10px;
 }
 
+/* Hamburger Nav-bar */
+
 .hamburger {
     color: #FFFFFF;
     display: none;
 }
 
-.row > [class^='col'] {
-    padding: 20px;
-}
-
-/*.hero [class^='col'] {
-    margin-top: 20px;
-    background-color: var(--light-blue);
-}*/
-
-.card {
-    background-color: var(--light-blue);
-}
-
-.hero {
-	padding: 20px 0;
-} 
+/* cards */
 
 figure > img {
 	display: block;
 	width: 100%;
 }
-    
-.phone-img {
-    width: 200px;
+
+.section-hero {
+    padding: 80px 0;
 }
 
-.button-app {
-    color: white;
-    line-height: 40px;
-    text-align: center;
-    background-color: var(--blue);
+.row > [class^='col'] {
+    padding: 10px;
+}
+
+.card {
+    background-color: var(--light-blue);
+    padding: 20px;
     border-radius: 20px;
-    padding: 0 18px;
+    height: 100%;
+}
+
+.phone-img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.icons {
+    font-size: 50px;
+    color: var(--blue);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .card-title {
-    color: var(--blue);
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card-text {
-    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-title-color {
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.card-text-special {
+    margin-bottom: 10px;
 }
 
 
@@ -203,6 +208,7 @@ figure > img {
 
 /* Responsive */
 
+/* nav-bar */
 @media (max-width:770px) {
     .container {
         width: 100%;
@@ -229,6 +235,29 @@ figure > img {
     .hamburger {
         display: block;
     }
+}
+
+/* Cards*/
+@media (max-width:770px) {
+    .container {
+        width: 100%;
+    }
+
+    .figure > img {
+        display: inline;
+    }
+    
+}
+
+@media (max-width:580px) {
+    .container {
+        width: 100%;
+    }
+
+    .hero .row {
+        flex-direction: column;
+    }
+    
 }
 
 
