@@ -142,8 +142,9 @@ figure > img {
 	width: 100%;
 }
 
-.section-hero {
+.section {
     padding: 80px 0;
+    margin-bottom: 80px;
 }
 
 .row > [class^='col'] {
@@ -186,11 +187,42 @@ figure > img {
     margin-bottom: 10px;
 }
 
+/* section- planning*/
+
+.section-planning {
+    background-color: var(--purple);
+    padding: 40px;
+}
+
+.card-title-planning {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.card-text-planning {
+    color: white;
+}
+
+.planning-img {
+    margin-bottom: 80px;
+}
+
+.card-planning {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
 
 
-
-
-
+.button-planning {
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 0 18px;
+    margin-left: 170px;   
+}
 
 
 
@@ -257,9 +289,19 @@ figure > img {
     .hero .row {
         flex-direction: column;
     }
-    
+
 }
 
+/* section-planning*/
+@media (max-width:770px) {
+    .container {
+        width: 100%;
+    }
+
+    .section-planning .row {
+        flex-direction: column;
+    }
+}
 
 
 
