@@ -258,6 +258,8 @@ figure > img {
     height: 100%;
 }
 
+/* section benefits */
+
 .section-benefits {
     background-color: var(--purple);
     padding: 70px;
@@ -302,6 +304,66 @@ figure > img {
     border-radius: 20px;
     padding: 0 40px;   
 }
+
+/* section-about */
+
+.about {
+    padding: 40px;
+}
+
+.title-about {
+    color: var(--purple);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.image-about {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.text-about {
+    color: var(--purple);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.button-about {
+    color: white;
+    line-height: 15px;
+    text-align: center;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 5px 50px;  
+}
+
+/* inserendo una col-7 e una col-5 nell'inspector
+segnalava un errore di: "invalid property".
+Non sono riuscita in altro modo a metterli affiancate
+se non con una col-6 e una col-2.
+
+.col-7 {
+    flex-basis: calc ((100% / 12) * 7)
+}
+
+.col-5 {
+    flex-basis: calc ((100% / 12) * 5);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -407,13 +469,25 @@ figure > img {
     .section-benefits .col {
         width: 50%;  
     }
-
+}
     
 
 @media (max-width:580px) {
 
     .section-benefits .row {
         flex-direction: column;
+    }
+}
+
+/* section-about */
+@media (max-width:580px) {
+    .about .col {
+        flex-basis: 0;
+    }
+
+    .about .row {
+        flex-direction: column;
+        width: 50%;
     }
 }
 
