@@ -309,6 +309,7 @@ figure > img {
 
 .about {
     padding: 40px;
+    margin-bottom: 80px;
 }
 
 .title-about {
@@ -350,13 +351,62 @@ se non con una col-6 e una col-2.
     flex-basis: calc ((100% / 12) * 5);
 } */
 
+/* section- started */
+.started {
+    background-color: var(--purple);
+    padding: 80px 80px 5px 10px;
+}
 
+.title-started {
+    color: white;
+    margin-bottom: 40px;
+}
 
+.title-started2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
 
+.title-started3 {
+    color: var(--yellow);
+    font-size: 80px;
+    margin-bottom: 20px;
+}
 
+.button-started {
+    color: var(--purple);
+    line-height: 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    padding: 40px 40px;
+    margin-bottom: 40px;
+}
 
+/* footer */
 
+.container-small-text {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
+.footer {
+    background-color: var(--dark-grey);
+    font-size: 15px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 40px;
+}
+
+footer a {
+    color: var(--purple);
+    text-decoration: underline;
+}
 
 
 
@@ -491,3 +541,13 @@ se non con una col-6 e una col-2.
     }
 }
 
+/* section- started */
+@media (max-width:580px) {
+    .container {
+        width: 50%;
+    }
+    
+    .started {
+        padding: 80px 0px 5px 10px;
+    }
+}
