@@ -414,18 +414,11 @@ footer a {
 
 
 
+/*********************************
+         Responsive 
+*********************************/
 
-
-
-
-
-
-
-
-
-/* Responsive */
-
-/* nav-bar */
+/* Tablet */
 @media (max-width:770px) {
     .container {
         width: 100%;
@@ -437,100 +430,47 @@ footer a {
 
     .hamburger {
         display: block;
-    }
-}
-
-@media (max-width:580px) {
-    .container {
-        width: 100%;
-    }
-
-    .navbar-list {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-    }
-}
-
-/* Cards*/
-@media (max-width:770px) {
-    .container {
-        width: 100%;
     }
 
     .figure > img {
         display: inline;
     }
-    
-}
-
-@media (max-width:580px) {
-    .container {
-        width: 100%;
-    }
-
-    .hero .row {
-        flex-direction: column;
-    }
-
-}
-
-/* section-planning*/
-@media (max-width:770px) {
-    .container {
-        width: 100%;
-    }
 
     .section-planning .row {
         flex-direction: column;
-    }
-}
-
-@media (max-width:580px) {
-    .container {
-        width:100%;
-    }
-}
-
-/* section-testimonials */
-@media (max-width:770px) {
-    .container {
-        width: 100%;
-    }
-
-}
-
-@media (max-width:580px) {
-
-    .img-testimonials {
-        width:200px;
-    }
-
-}
-
-/* section-benefits */
-@media (max-width:770px) {
-    .container {
-        width:100%;
     }
 
     .section-benefits .col {
         width: 50%;  
     }
 }
-    
 
+/* Mobile */
 @media (max-width:580px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero .row {
+        flex-direction: column;
+    }
+
+    .img-testimonials {
+        width:200px;
+    }
 
     .section-benefits .row {
         flex-direction: column;
     }
-}
 
-/* section-about */
-@media (max-width:580px) {
     .about .col {
         flex-basis: 0;
     }
@@ -539,14 +479,11 @@ footer a {
         flex-direction: column;
         width: 50%;
     }
-}
 
-/* section- started */
-@media (max-width:580px) {
     .container {
         width: 50%;
     }
-    
+
     .started {
         padding: 80px 0px 5px 10px;
     }
