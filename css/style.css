@@ -440,8 +440,8 @@ footer a {
         flex-direction: column;
     }
 
-    .section-benefits .col {
-        width: 50%;  
+    .section-benefits .col-4 {
+        flex-basis: 50%; 
     }
 }
 
