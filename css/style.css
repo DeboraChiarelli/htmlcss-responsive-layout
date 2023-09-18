@@ -194,6 +194,16 @@ figure > img {
     padding: 40px;
 }
 
+.col-card-planning {
+    display: flex;
+    align-self: flex-end;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
 .card-title-planning {
     color: white;
     margin-bottom: 40px;
@@ -213,6 +223,10 @@ figure > img {
     border-radius: 20px;
 }
 
+.planning2-img {
+    max-width: 250px;
+    text-align: center;
+}
 
 .button-planning {
     color: black;
@@ -224,6 +238,7 @@ figure > img {
     margin-left: 170px;   
 }
 
+/* section-testimonials */
 .section-testimonials {
     padding: 80px;
 }
