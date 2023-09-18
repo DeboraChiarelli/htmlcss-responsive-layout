@@ -480,8 +480,8 @@ footer a {
         width: 50%;
     }
 
-    .container {
-        width: 50%;
+    .section-testimonials .row {
+        display: block;
     }
 
     .started {
